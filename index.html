@@ -1,0 +1,89 @@
+<DOCTYPE html> 
+<html lang="pt-br">
+    <head>
+    <meta charset="utf-8">
+        <title>Minha Primeira Página</title>
+    </head>
+    
+    <style>
+        p {color: fuchsia}
+        body {background-color: aqua}
+    </style>
+    
+    <body>
+        <!--Título máximo h1, mínimo h6-->
+        <h1 style="text-align:center">Página de teste</h1>
+        
+        <hr><!--Linha Horizontal-->
+        
+        <p style="text-align:center"> Me chamo André Lang, estou aprendendo a programar</p>
+            
+        <!--Formulário-->
+        <form action="processa.php" method="post">
+        
+            <label>Text</label>
+            <input type="text" name="texto1" placeholder="text">
+        
+            <br>
+        
+            <label>Password</label>
+            <input type="password" name="senha">
+            
+            <br>
+            
+            <input type="hidden" name="informacao_oculta" value="mensagem oculta">
+            
+            <br>
+            
+            <label>Select</label>
+            <select name="selecao">
+                <option value="1"> Opção 1</option>
+                <option value="2"> Opção 2</option>
+            </select>
+            
+            <br>
+            
+            <label>Radio</label>
+            <input type="radio" name="radio1" value="1">Valor 1
+            <input type="radio" name="radio1" value="2">Valor 2
+            
+            <br>
+            
+            <label>Checkbox</label>
+            <input type="checkbox" name="ck1" value="1" checked>Valor 1
+            <input type="checkbox" name="ck1" value="2">Valor 2
+            <input type="checkbox" name="ck1" value="3">Valor 3
+            
+            <br>
+            
+            <input type="submit" value="Enviar" name="submit">
+        </form>
+        
+        
+        <!--Lista ordenada-->
+        <ol>
+        <li>Primeiro elemento</li>
+        <li>Segundo elemento</li>
+        <li>Terceiro elemento</li>
+        </ol>
+        
+        <!--Lista não ordenada-->
+        <ul>
+        <li>Primeiro elemento</li>
+        <li>Segundo elemento</li>
+        <li>Terceiro elemento</li>
+        </ul>
+        
+        <img src="imagem.jpg" width="600px">
+        <br><!--Inserir quebra de linha-->
+        <a href="http://google.com.br">Google</a>
+    </body>
+    
+    <table>        
+    <tr> <th>horas</th> <th>Domingo</th> <th>Segunda</th></tr>
+    <tr> <td>13h</td> <td>Estudar Python</td> <td>Estudar ENEM</td></tr>
+    <tr> <td>14h</td> <td>Estudar HTML</td> <td>Estudar CSS</td></tr>
+    </table>
+    
+    </html>
+</DOCTYPE>
